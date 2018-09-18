@@ -1,0 +1,27 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title></title>
+</head>
+<body>
+    <div class="row" style="padding:100px;">
+        <div class="col-lg-6">
+            <div class="jumbotron">
+                <input type="button" value="Project" />
+                <button class="btn btn-primary btn-lg">@Html.ActionLink("Projects", "", "project")</button>
+            </div>
+        </div>
+        <div class="col-lg-6">
+            <div class="jumbotron">
+                <input type="button" value="User" />
+            </div>
+        </div>
+    </div>
+</body>
+</html>
