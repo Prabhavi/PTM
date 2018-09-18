@@ -12,7 +12,16 @@
     <div class="jumbotron">
         <img style="align-content:center" alt="logo" src="~/Content/images/swissranks-logo.png" />
         <h1 style="align-content:center">WellCome to project Tracker Module</h1>
+        @*<p><a href="~/Views/project/Index.cshtml" class="btn btn-primary btn-lg">Projects &raquo;</a></p>*@
+        <button class="btn btn-primary btn-lg">@Html.ActionLink("Projects", "", "Home")</button>
         
+    </div>
+    <div class="jumbotron">
+        <img style="align-content:center" alt="logo" src="~/Content/images/swissranks-logo.png" />
+        <h1 style="align-content:center">WellCome to project Tracker Module</h1>
+        @*<p><a href="~/Views/project/Index.cshtml" class="btn btn-primary btn-lg">Projects &raquo;</a></p>*@
+        <button class="btn btn-primary btn-lg">@Html.ActionLink("Projects", "", "Home")</button>
+
     </div>
 </body>
 </html>
